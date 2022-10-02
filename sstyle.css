@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
 
 body {
-  background-image: url("https://i.pinimg.com/originals/73/93/f8/7393f872a22ceb626fde1259dc0d00d7.jpg");
-  background-repeat: repeat-y;
-  background-origin: content-box;
   font-family: "Rubik Glitch";
 }
 
@@ -16,10 +13,10 @@ div {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding: auto;
+  width: 80%;
   margin: 100px;
   border-radius: 15px;
-  background-color: 0, 0%, 0%, 0.5;
+  background-color: black;
 }
 #divp {
   display: flex;
