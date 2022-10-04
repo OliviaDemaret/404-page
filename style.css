@@ -1,24 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
 
 body {
+  background-image: url("https://media.istockphoto.com/photos/dark-black-and-white-television-static-picture-id116180672?k=20&m=116180672&s=612x612&w=0&h=2CYHVUNQKyzoneH9uDK0EwV0Yyq1p_mKbD13mE2n9TM=");
   font-family: "Rubik Glitch";
+  font-size: 23px;
+}
+
+#diva {
+  display: flex;
+  justify-content: center;
+  margin-left: 450px;
+  margin-right: 450px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: hsla(351, 100%, 25%, 1);
 }
 
 img {
+  border-radius: 350px;
+  border-style: solid;
+  border-width: 10px;
   width: 50%;
 }
 
-div {
+#divo {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   padding: auto;
   margin: 100px;
+  margin-top: 70px;
+  margin-bottom: 50px;
   border-radius: 15px;
   background-color: 0, 0%, 0%, 0.5;
 }
+
+#divo:hover {
+  opacity: 0;
+}
+
 #divp {
+  background: hsla(208, 7%, 55%, 0.5);
+  padding: 30px;
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
